@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:wght@400;700&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(15deg, white, rgb(115, 112, 112) 50%, #f8fafc 40%, #F8FAFC);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  width: 17vw;
+  justify-content: center;
+  border: none 0.5px;
+  box-sizing: content-box;
+  border-radius: 5px;
+  box-shadow: 0px 0.1px 15px black;
+  min-width: 17rem;
+  background-color: white;
+}
+
+h4 {
+  font-size: 24px;
+  margin-top: -0.5rem;
+  padding: 1rem;
+}
+
+p {
+  color: #757575;
+}
+
+label,
+input {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0.2rem;
+  color: #333333;
+}
+
+input {
+  padding: 0.3rem;
+  border-radius: 5px;
+  border: solid 0.1px gray;
+}
+
+#btn {
+  background-color: #5b54f4;
+  color: white;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 10px;
+  margin-top: 1rem;
+  font-size: large;
+}
+
+#confirmPassword-feedback {
+  color: red;
+}
+
+#container2 {
+  border: none;
+  font-size: smaller;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  box-shadow: none;
+  margin-top: 1rem;
+}
+
+a {
+  color: #625BF7;
+  text-decoration: none;
+}
+
+.container2 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  width: 15vw;
+  justify-content: center;
+  border: none 0.5px;
+  box-sizing: content-box;
+  border-radius: 5px;
+  box-shadow: 0px 0.1px 15px black;
+  min-width: 17rem;
+  margin-top: -30vh;
+  background-color: white;
+}
+
+.head {
+  border: none;
+  min-width: none;
+  box-shadow: none;
+  width: 100vw;
+  margin-bottom: 40vh;
+  color: #625BF7;
+}
+
+i {
+  color: #625BF7;
+  font-size: 34px;
+  font-weight: 700;
+  padding: 1rem;
+}
+
+#sec {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+  background: linear-gradient(15deg, rgb(91, 247, 219), rgb(91, 247, 219) 50%, white 40%, white);
+}
+
+#err{
+  color: #625BF7;
+}
+
+#logbtn {
+  background-color:#5b54f4;
+  color: rgb(237, 233, 233);
+  padding: 1rem 2rem;
+  font-size: large;
+}
+
+#result {
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  justify-content: center;
+  box-sizing: content-box;
+  min-width: 17rem;
+  background-color: white;  
+}
+
+label {
+  padding: 0.1rem;
+}
+
+
+#showPassword{
+  position: relative;
+}

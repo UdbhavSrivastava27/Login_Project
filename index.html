@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <p>Welcome Back! <img src="wave.png" alt=""></p>
+        <h4>Sign up to your account</h4>
+
+
+
+            <label for="name" >Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name " required>
+    
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"  placeholder="Your Email"   required>
+            <label for="password" name="password" >Password*</label>
+            <input type="password" name="password" id="password" required>
+            <input type="checkbox" id="showPassword">
+
+
+            
+            <label for="confirmPassword" name="confirmPassword">Confirm Password*</label>
+            <input type="password" name="confirmPassword" id="confirmPassword" required>
+            <small id="confirmPassword-feedback"></small>
+            <input type="submit" value="Continue" id="btn">
+
+            <p id="err"></p>
+    </div>
+    <div class="container" id="container2">
+        <p>Don't have an account? <a href="">Signup</a></p>
+    <script src="main.js"></script>
+</body>
+
+</html>
